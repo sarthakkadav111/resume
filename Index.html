@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .fcol{
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+       .scol{
+           padding: 20px;
+       }
+    
+    
+    .reg{
+        margin-left: 30px;
+    }
+    .lan{
+        margin-left: 30px;
+    }
+    .cur{
+        margin-left: 30px;
+    }
+    .sh{
+        margin-left: 500px;
+    }
+    .fa{
+        margin-left: 30px;
+    }
+    .con{
+        margin-left: 30px;
+    }
+    .bi {
+        margin-left: 40px;
+    }
+    .home{
+        margin-left: 200px;
+    }
+    .offer{
+        border: 1px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    .banner{
+        padding-top: 20px;
+        display: flex;
+        overflow: auto;
+        height: 700px;
+        background-size: cover;
+    }
+    .bm{
+        text-align: left;
+        font-size: 5%;
+        z-index: 0;
+    }
+    .bw{
+        text-align: center;
+        font-size: 5%;
+    }
+    .bk{
+        text-align: right;
+        font-size: 5%;
+    }
+    .men{
+            background-image: url(../public/menfashion.png);
+            background-size: cover;
+            width:100%;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+        .women{
+            background-image: url(../public/womenfashion.png);
+            background-size: cover;
+            width:100%;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+        .kid{
+            background-image: url(../public/kidsfashion.png);
+            background-size: cover;
+            height: 400px;
+            width: 100%;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+        .banner-name{
+            display: flex;
+            padding-top: 20px;
+        }
+    </style>
+    <head>
+    <title>Shopping page</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <div class="fcol">
+        <span class="bi  bi-cart"> </span>
+        <span class="mc">Free Shipping Worldwide</span>
+        <span class="reg">
+            <select name="Region">
+            <optgroup>
+            <option value="IND">INDIA</option>
+            <option value="USA">AMERICA</option>
+            <option value="IND">BRAZIL</option>
+            <option value="USA">INDONESIA</option>
+        </optgroup>
+            </select>
+        </span>
+        <span class="lan">
+            <select name="Langauge">
+                <optgroup>
+                    <option>MARATHI</option>
+                    <option>HINDI</option>
+                    <option>ENGLISH</option>
+                    <option>FRENCH</option>
+                </optgroup>
+            </select>
+        </span>
+        <span class="cur">
+            <select name="Currency">
+                <optgroup>
+                    <option>USD $</option>
+                    <option>IND Rupees</option>
+                </optgroup>
+            </select>
+        </span>
+        <span class="sh">Shipping</span>
+        <span class="fa">FAQ</span>
+        <span class="con">Contact</span>
+    </div>
+    </head>
+    <body>
+        <div class="scol">
+            <font size="+5">
+                <span class="sho">Shopping.</span>
+            </font>
+            <font size="+1">
+                <span class="home">Home</span>
+            <span class="fa">Catlogue</span>
+            <span class="fa">Shop</span>
+            <span class="fa">Page</span>
+            <span class="fa">Blog</span>
+            <span class="fa">Doc</span>
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart-check"></span>
+            </font>
+        </div>
+        <div class="offer">
+            HAPPY   HOLIDAY   DEALS   ON   EVERYTHING
+        </div>
+        
+        <section>
+            <main>
+                <div class="banner-name">
+                    <div class="men">
+                        <div>
+                            <h1>Men</h1>
+                        </div>
+                        <button> Shop Men <span class="bi bi-arrow-right-short"></span>
+                        </button>
+                    </div>
+                    <div class="women">
+                        <div>
+                            <h1>Women</h1>
+                        </div>
+                        <button>Shop Now
+                            <span class="bi bi-arrow-right-short"></span>
+                        </button>
+                    </div>
+                    <div class="kid">
+                        <div><h1>Kids</h1></div>
+                        <button>Shop Now
+                            <span class="bi bi-arrow-right-short"></span>
+                        </button>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </body>
+</html>
